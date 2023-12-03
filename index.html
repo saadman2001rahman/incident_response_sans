@@ -318,7 +318,107 @@
             <p>After the recovery, there should be documentation on the incidents that may have not been documented before. There should be a Lesson Learned meeting. From this meeting, the answers to Who, What, Where, Why and How questions will be included in the documentation. The overall goal from this is to learn from the incident that has taken place and ensure that it does not happen again. Additionally, this documentation can be used as a training resource for new staff of the company. It should also include the suggestions and discussions between members regarding how to improve the system and the overall team.</p>
         </recover>
         <checklist_panel>
-
+            <h1>INCIDENT HANDLERS CHECKLIST</h1>
+            <ol>
+                <li>
+                    <h3>Preparation</h3>
+                    <ol>
+                        <li>
+                            Are all members aware of the security policies of the organization? 
+                        </li>
+                        <li>
+                            Do all members of the Computer Incident Response Team know whom to contact?
+                        </li>
+                        <li>
+                            Do all incident responders have access to journals and access to incident response toolkits to perform the actual incident response process?
+                        </li>
+                        <li>
+                            Have all members participated in incident response drills to practice the incident response process and to improve overall proficiency on a regularly established basis?
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Identification</h3>
+                    <ol>
+                        <li>Where did the incident occur?</li>
+                        <li>Who reported or discovered the incident?</li>
+                        <li>How was it discovered?</li>
+                        <li>Are there any other areas that have been compromised by the incident? If so what are they and when were they discovered?</li>
+                        <li>What is the scope of the impact?</li>
+                        <li>What is the business impact?</li>
+                        <li>Have the source(s) of the incident been located? If so, where, when, and what are they?</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Containment</h3>
+                    <ol>
+                        <li>
+                            <h4>Short-term containment</h4>
+                            <ul>
+                                <li>
+                                    Can the problem be isolated? If so, then proceed to isolate the affected systems. If not, then work with system owners and/or managers to determine further action necessary to contain the problem.
+                                </li>
+                                <li>
+                                    Are all affected systems isolated from non-affected systems? If so, then continue to the next step. If not, then continue to isolate affected systems until short-term containment has been accomplished to prevent the incident from escalating any further.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>System-backup.</h4>
+                            <ul>
+                                <li>
+                                    Have forensic copies of affected systems been created for further analysis?
+                                </li>
+                                <li>
+                                    Have all commands and other documentation since the incident has occurred been kept up to date so far? If not, document all actions taken as soon as possible to ensure all evidence are retained for either prosecution and/or lessons learned.
+                                </li>
+                                <li>
+                                    Are the forensic copies stored in a secure location?
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Long-term Containment</h4>
+                            <ul>
+                                <li>If the system can be taken offline, then proceed to the Eradication phase.</li>
+                                <li>If the system must remain in production proceed with long-term containment by removing all malware and other artifacts from affected systems, and harden the affected systems from further attacks until an ideal circumstance will allow the affected systems to be reimaged.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Eradication</h3>
+                    <ol>
+                        <li>If possible can the system be reimaged and then hardened with patches and/or other countermeasures to prevent or reduce the risk of attacks? If not, then please state why?</li>
+                        <li>Have all malware and other artifacts left behind by the attackers been removed and the affected systems hardened against further attacks? If not, then please explain why?</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Recovery</h3>
+                    <ol>
+                        <li>Has the affected system(s) been patched and hardened against the recent attack, as well as possible future ones?</li>
+                        <li>What day and time would be feasible to restore the affected systems back into production?</li>
+                        <li>What tools are you going to use to test, monitor, and verify that the systems being restored to production are not compromised by the same methods that caused the original incident?</li>
+                        <li>How long are you planning to monitor the restored systems and what are you going to look for?</li>
+                        <li>Are there any prior benchmarks that can be used as a baseline to compare monitoring results of the restored systems against those of the baseline?</li>
+                    </ol>
+                </li>
+                <li>
+                    <h3>Lessons Learned</h3>
+                    <ol>
+                        <li>Has all necessary documentation from the incident been written? If so, then generate the incident response report for the lessons learned meeting. If not, then have documentation written as soon as possible before anything is forgotten and left out of the report.</li>
+                        <li>Assuming the incident response report has been completed, does it document and answer the following questions of each phase of the incident response process: (Who? What? Where? Why? And How?)?</li>
+                        <li>Can a lesson learned meeting be scheduled within two weeks after the incident has been resolved? If not, then please explain why and when is the next convenient time to hold it?</li>
+                        <li>
+                            Lessons Learned Meeting
+                            <ul>
+                                <li>Review the incident response process of the incident that had occurred with all CIRT members.</li>
+                                <li>Did the meeting discuss any mistakes or areas where the response process could have been handled better?</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
         </checklist_panel>
         <sources>
 
