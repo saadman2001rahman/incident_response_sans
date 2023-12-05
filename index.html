@@ -6,13 +6,27 @@
         <title>Incident Response Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+
     </head>
     <body>
         <nav>
-            <!-- links to the other parts of the website down below, as well as other links if found -->
+            <div class="nav-container">
+                <h1>INCIDENT HANDLING RESPONSE</h1>        
+                <ul>
+                    <li><a href="#introduction">introduction</a></li>
+                    <li><a href="#preparation">preparation</a></li>
+                    <li><a href="#identification">identification</a></li>
+                    <li><a href="#containment">containment</a></li>
+                    <li><a href="#eradication">eradication</a></li>
+                    <li><a href="#recovery">recovery</a></li>
+                    <li><a href="#checklist">checklist</a></li>
+
+                </ul>
+            </div>
         </nav>
-        <intro>
+        <intro id="introduction">
             <h1>INTRODUCTION</h1>
             <h3>Why Every Start-up Needs a Security Incident Response Plan:</h3>
             <p1>Embarking on the exciting journey of a start-up comes with its share of challenges, and in today's digital age, ensuring the security of their business is non-negotiable. Cyber threats lurk around every corner, ready to exploit vulnerabilities and jeopardize the very foundation of their start-up. This is where a robust Security Incident Response Plan (SIRP) becomes a strategic ally.
@@ -47,7 +61,7 @@
             </p1>
             <img src="images/sans_ladder.png" />
         </intro>
-        <prep>
+        <prep id="preparation">
             <h1>PREPARATION</h1>
             <p1>Review and codify an organizational security policy, perform risk assessment, identify sensitive assets and define which are key incidents the team should focus on. </p1>
                 <ul>
@@ -229,7 +243,7 @@
                 </li>
             </ul>
         </prep>
-        <iden>
+        <iden id="identification">
             <h1>IDENTIFICATION</h1>
             <p>This step involves detecting deviations from normal operations in the organization, understanding if a deviation represents a security incident, and determining how important the incident is. [Added this to the description below.]</p>
             <h3>Description:</h3>
@@ -257,7 +271,7 @@
             <h3>Example Scenario:</h3>
             <p>Imagine an organization notices an unusual spike in network traffic during off-peak hours. Employees report slow system performance, and the IT team receives multiple alerts from intrusion detection systems. The identification phase involves actively monitoring these events, reporting them through established channels, and conducting an initial assessment to understand the scope and potential impact. Once identified, the incident response team can swiftly move to the next phases of the plan.</p>
         </iden>
-        <contain>
+        <contain id="containment">
             <h1>CONTAINMENT</h1>
             <p>Containment is the phase in the SANS Incident Response Plan where the focus is on limiting the damage caused by the security incident and preventing it from spreading further. The goal is to isolate the affected systems or network segments to stop the incident from escalating.</p>
 
@@ -272,7 +286,7 @@
             <p>Implement short-term measures to quickly limit the impact of the incident. These measures are not intended to be permanent solutions but aim to control the situation until further actions can be taken.
             Example: If a website is under a DDoS attack, implement short-term measures like redirecting traffic through a DDoS protection service to maintain accessibility while investigating the attack.</p>
         </contain>
-        <erad>
+        <erad id="eradication">
             <h1>ERADICATION</h1>  
             <p>Eradication is the phase where the focus shifts to completely removing the threat and ensuring that systems are secure. It involves actions to eliminate the root cause of the incident, preventing it from recurring in the future.</p>
             
@@ -297,7 +311,7 @@
                 </li>
             </ul>
         </erad>
-        <recover>
+        <recover id="recovery">
             <h1>RECOVERY</h1>    
 
             <p>The purpose of the recovery phase of this plan is to ensure that all the systems are back to full operation after verifying that they are clean again and any threat is removed.</p> 
@@ -317,7 +331,7 @@
 
             <p>After the recovery, there should be documentation on the incidents that may have not been documented before. There should be a Lesson Learned meeting. From this meeting, the answers to Who, What, Where, Why and How questions will be included in the documentation. The overall goal from this is to learn from the incident that has taken place and ensure that it does not happen again. Additionally, this documentation can be used as a training resource for new staff of the company. It should also include the suggestions and discussions between members regarding how to improve the system and the overall team.</p>
         </recover>
-        <checklist_panel>
+        <checklist_panel id="checklist">
             <h1>INCIDENT HANDLERS CHECKLIST</h1>
             <ol>
                 <li>
@@ -420,9 +434,6 @@
                 </li>
             </ol>
         </checklist_panel>
-        <sources>
-
-        </sources>
     </body>
 </html>
 
