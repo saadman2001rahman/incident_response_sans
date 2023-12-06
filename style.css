@@ -1,13 +1,14 @@
 body, h1, h2, h3, h4, h5, h6, p {
     font-family: 'Poppins', sans-serif;
     margin: auto;
-    background-color: #331D2C;
-    color: #EFE1D1;
+    background-color: #352F44;
+    color: #FAF0E6;
+    padding-left: 2rem;
 }
 
 nav {    
     color: #EFE1D1;
-    text-align: center;
+    text-align: left;
     padding: 10px 0;
     width: 100%;
     top: 0;
@@ -27,9 +28,10 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color:#FAF0E6;
     font-weight: bold;
     font-size: 1.1rem;
+    text-align: left;
     transition: color 0.3s ease;
 }
 
@@ -42,12 +44,21 @@ nav a:focus {
 
 
 intro h1 {
-    text-align: center;
-    background-color: #3F2E3E;
+    /* text-align: left; */
+    background-color: #5C5470;
     font-size: 2rem;
     font-weight: bold;
-    padding: 20px; 
+    /* padding: 20px;  */
 }
+
+intro img {
+    display: block;
+    margin: auto;
+}
+
+/* nav h1 {
+    padding-left: 2rem;
+} */
 
 
 
