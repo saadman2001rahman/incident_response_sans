@@ -169,6 +169,65 @@ prep h1 {
     /* padding: 20px;  */
 }
 
+iden {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+idenmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+idenmedia img {
+    max-width: 600px;
+}
+
+idenmedia iframe {
+    width: 600px;
+}
+
+contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+containmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+containmedia img {
+    max-width: 600;
+}
+
+erad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+eradmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 600px;
+}
+
+
 iden h1 {
     /* text-align: left; */
     background-color: #5C5470;
