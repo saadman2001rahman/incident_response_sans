@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, h5, h6, p {
+body, h1, h2, h3, h4, h5, h6, p, img{
     font-family: 'Poppins', sans-serif;
     margin: auto;
     background-color: #352F44;
@@ -42,7 +42,65 @@ nav a:focus {
     color: #A78295;
 }
 
-intro {}
+.clickbaitbutton {
+    background-color: #FAF0E6;
+}
+
+.clickbaitbutton:hover,
+.clickbaitbutton:active,
+.clickbaitbutton:focus 
+{
+    color: #A78295;
+}
+
+
+.introclickbaitlink {
+    text-decoration: none;
+    color:#FAF0E6;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+
+.introclickbaitlink:hover,
+.introclickbaitlink:active,
+.introclickbaitlink:focus 
+{
+    color: #A78295;
+}
+
+.rightimage {
+    text-decoration: none;
+    color:#FAF0E6;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+.rightimage:hover,
+.rightimage:active,
+.rightimage:focus {
+    color: #A78295;
+}
+
+.leftimage {
+    text-decoration: none;
+    color:#FAF0E6;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+.leftimage:hover,
+.leftimage:active,
+.leftimage:focus {
+    color: #A78295;
+}
+
 
 intro h1 {
     /* text-align: left; */
