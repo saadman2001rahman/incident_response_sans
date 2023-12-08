@@ -227,6 +227,26 @@ eradmedia {
     max-width: 600px;
 }
 
+recover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+recovermedia img {
+    max-width: 550px;
+}
+
+recovermedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
 
 iden h1 {
     /* text-align: left; */
