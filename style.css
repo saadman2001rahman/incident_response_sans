@@ -4,6 +4,7 @@ body, h1, h2, h3, h4, h5, h6, p {
     background-color: #352F44;
     color: #FAF0E6;
     padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 nav {    
@@ -41,7 +42,7 @@ nav a:focus {
     color: #A78295;
 }
 
-
+intro {}
 
 intro h1 {
     /* text-align: left; */
@@ -59,6 +60,54 @@ intro img {
 /* nav h1 {
     padding-left: 2rem;
 } */
+
+prep h1 {
+    /* text-align: left; */
+    background-color: #5C5470;
+    font-size: 2rem;
+    font-weight: bold;
+    /* padding: 20px;  */
+}
+
+iden h1 {
+    /* text-align: left; */
+    background-color: #5C5470;
+    font-size: 2rem;
+    font-weight: bold;
+    /* padding: 20px;  */
+}
+
+contain h1 {
+    /* text-align: left; */
+    background-color: #5C5470;
+    font-size: 2rem;
+    font-weight: bold;
+    /* padding: 20px;  */
+}
+
+erad h1 {
+    /* text-align: left; */
+    background-color: #5C5470;
+    font-size: 2rem;
+    font-weight: bold;
+    /* padding: 20px;  */
+}
+
+recover h1 {
+    /* text-align: left; */
+    background-color: #5C5470;
+    font-size: 2rem;
+    font-weight: bold;
+    /* padding: 20px;  */
+}
+
+checklist_panel h1 {
+    /* text-align: left; */
+    background-color: #5C5470;
+    font-size: 2rem;
+    font-weight: bold;
+    /* padding: 20px;  */
+}
 
 
 
