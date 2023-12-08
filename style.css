@@ -27,7 +27,7 @@ nav li {
     margin-right: 20px;
 }
 
-nav a {
+a {
     text-decoration: none;
     color:#FAF0E6;
     font-weight: bold;
@@ -36,9 +36,9 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover,
-nav a:active,
-nav a:focus {
+a:hover,
+a:active,
+a:focus {
     color: #A78295;
 }
 
@@ -101,8 +101,32 @@ nav a:focus {
     color: #A78295;
 }
 
+intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
 
-intro h1 {
+introtext {
+    max-width: 750px;
+}
+
+intro iframe {
+    width: 600px; /* Adjust to make the video wider */
+    height: 500px; /* Adjust the height accordingly */
+}
+
+intromediacontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+.titles {
     /* text-align: left; */
     background-color: #5C5470;
     font-size: 2rem;
@@ -110,14 +134,32 @@ intro h1 {
     /* padding: 20px;  */
 }
 
-intro img {
-    display: block;
-    margin: auto;
+.introsourcetext {
+    text-align: center;
 }
 
-/* nav h1 {
-    padding-left: 2rem;
+.introimage {
+    max-width: 600px;
+}
+
+prep {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* prepcontent {
+    max-width: 900px;
 } */
+
+prepmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 prep h1 {
     /* text-align: left; */

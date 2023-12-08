@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column; /* Align items in a column */
+            align-items: center; /* Center items horizontally */
+            padding: 20px;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column; /* Align items in a column */
+            align-items: center; /* Center items horizontally */
+            max-width: 800px; /* Adjust as needed */
+        }
+
+        #introduction {
+            max-width: 600px; /* Adjust as needed */
+            margin-bottom: 20px; /* Add some space between text and video */
+        }
+
+        iframe {
+            width: 100%; /* Make the video take 100% of its container width */
+            height: 315px; /* Adjust the height accordingly */
+        }
+
+        img {
+            width: 100%; /* Make the image take 100% of its container width */
+            height: auto; /* Maintain the aspect ratio of the image */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="introduction">
+            <!-- Your existing HTML content -->
+        </div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bj2imWQ1dQw?si=9OiPybw1EBY0OtHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <img src="images/sans_ladder.png" alt="Description of the image">
