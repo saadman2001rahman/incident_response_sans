@@ -110,22 +110,22 @@ intro {
 }
 
 introtext {
-    max-width: 750px;
+    max-width: 50%;
 }
 
 intro iframe {
     width: 600px; /* Adjust to make the video wider */
-    height: 500px; /* Adjust the height accordingly */
+    height: 600px; /* Adjust the height accordingly */
 }
 
 intromediacontent {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
-
-
+    margin-right: 2rem;
 }
 
 .titles {
@@ -248,6 +248,23 @@ recovermedia {
     margin-bottom: auto;
     
 }
+
+checklist_panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+checklistmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
 
 
 iden h1 {
