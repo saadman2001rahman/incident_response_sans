@@ -5,6 +5,7 @@ body, h1, h2, h3, h4, h5, h6, p, img{
     color: #FAF0E6;
     padding-left: 2rem;
     padding-right: 2rem;
+
 }
 
 nav {    
@@ -21,6 +22,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
 
 nav li {
     display: inline;
