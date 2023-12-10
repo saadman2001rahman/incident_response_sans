@@ -198,6 +198,8 @@
                     Organized Bag: Designed to store and protect all tools in an organized fashion.
                 </li>
             </ul>
+            <h3>Real life Example: </h3>
+            <p> Apple has security systems set up in their devices to prevent data leak. They have successfully identified an important element; Apps. As a result Apple provides multiple layers of security to make sure that apps do not have malware and they have not been tampered. They also have services that protect users.</p>
         </prepcontent>
         </prep>
 
@@ -227,8 +229,8 @@
             <h3>Documentation:</h3>
             <p>Start documenting the incident from the identification phase onward. This documentation should include the who, what, where, why, and how of the incident. Detailed documentation is crucial for future analysis, legal purposes, and organizational learning.</p>
 
-            <h3>Example Scenario:</h3>
-            <p>Imagine an organization notices an unusual spike in network traffic during off-peak hours. Employees report slow system performance, and the IT team receives multiple alerts from intrusion detection systems. The identification phase involves actively monitoring these events, reporting them through established channels, and conducting an initial assessment to understand the scope and potential impact. Once identified, the incident response team can swiftly move to the next phases of the plan.</p>
+            <h3>Real life Example:</h3>
+            <p> In 2019, a software company, SolarWinds was attacked. Attackers injected a malicious code into the Orion System. Unfortunately, as SolarWinds was not aware of the code, they unknowingly sent out Orion software updates. As a result, hackers got access to customer information. Many companies and organizations were affected. The identification was done by a cybersecurity company called FireEye.</p>
         </identext>
         <idenmedia>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/fOPzZ61xpxU?si=-lgmAxkHkFhflJYD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -252,12 +254,15 @@
 
             <h3>Isolation:</h3>
             <p>Immediately isolate the affected systems or network segments to prevent the incident from spreading. This could involve disconnecting compromised devices or restricting network access.
-            Example: If malware is detected on a specific server, isolate that server from the rest of the network to prevent the malware from spreading to other systems.
+            If malware is detected on a specific server, isolate that server from the rest of the network to prevent the malware from spreading to other systems.
             </p>
             
             <h3>Short-term Measures:</h3>
             <p>Implement short-term measures to quickly limit the impact of the incident. These measures are not intended to be permanent solutions but aim to control the situation until further actions can be taken.
-            Example: If a website is under a DDoS attack, implement short-term measures like redirecting traffic through a DDoS protection service to maintain accessibility while investigating the attack.</p>
+           If a website is under a DDoS attack, implement short-term measures like redirecting traffic through a DDoS protection service to maintain accessibility while investigating the attack.</p>
+
+            <h3>Real life Example:</h3>
+            <p>When Suncor was attacked earlier this year, their gas stations were not operating properly. Right after the attack, the operational IT systems were isolated and databases were backed up. This was a measure to contain the degree of attack taking place.</p>
         </containtext>
         </contain>
 
@@ -272,20 +277,22 @@
                 <li>
                     <h3>System Restoration:</h3>
                     <p>Restore affected systems to a clean state. This may involve reinstalling the operating system or restoring systems from backups.
-                    Example: If a server was compromised, perform a clean reinstall of the operating system and restore data from a backup created before the incident.</p>
+                    If a server is compromised, perform a clean reinstall of the operating system and restore data from a backup created before the incident.</p>
                 </li>
 
                 <li>
                     <h3>Vulnerability Patching:</h3>
                     <p>Identify and address vulnerabilities that were exploited during the incident. Install patches and updates to ensure that the same security weaknesses cannot be exploited again.
-                    Example: If the incident revealed that a specific software version had a known vulnerability, apply the necessary patches to eliminate that vulnerability.</p>
+                    If the incident revealed that a specific software version had a known vulnerability, apply the necessary patches to eliminate that vulnerability.</p>
                 </li>
                 <li>
                     <h3>Long-term Containment:</h3>
                     <p>Implement measures to ensure the incident does not recur. This involves addressing security gaps, enhancing system defenses, and making strategic changes to prevent a similar incident.
-                    Example: Review and update access controls, firewall rules, and security configurations to fortify the organization's defenses against future incidents.</p>
+                    Review and update access controls, firewall rules, and security configurations to fortify the organization's defenses against future incidents.</p>
                 </li>
             </ul>
+            <h3>Real life Example:</h3>
+            <p>Uber faced a cyber attack in 2022. In this scenario, the team identified the source of attack; it was through the Slack account of one of the employees. The attacker has used social engineering to access the account. As a result, Uber immediately notifed their employees to not use Slack in order to eradicate the attack</p>
             </eradtext>
             <eradmedia>
                 <iframe src="https://giphy.com/embed/J1uN1pPOqyPRZxThEv" width="480" height="298" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/morphin-drugs-suit-walter-white-J1uN1pPOqyPRZxThEv">via GIPHY</a></p>  
@@ -316,12 +323,13 @@
 
 
             <p>After the recovery, there should be documentation on the incidents that may have not been documented before. There should be a Lesson Learned meeting. From this meeting, the answers to Who, What, Where, Why and How questions will be included in the documentation. The overall goal from this is to learn from the incident that has taken place and ensure that it does not happen again. Additionally, this documentation can be used as a training resource for new staff of the company. It should also include the suggestions and discussions between members regarding how to improve the system and the overall team.</p>
+            <h3>Real Life Example:</h3>
+            <p> In early November, Microsoft decided to launch a new cybersecurity strategy. They will be using Artifical Intelligence in order to fend off future attacks.</p>
         </recovertext>
         </recover>
-        
+
         <h1 class="titles">INCIDENT HANDLERS CHECKLIST</h1>
         <checklist_panel id="checklist">
-            <checklisttext>
             <ol>
                 <li>
                     <h3>Preparation</h3>
@@ -359,9 +367,11 @@
                             <h4>Short-term containment</h4>
                             <ul>
                                 <li>
-                                    Can the problem be isolated? </li>
+                                    Can the problem be isolated? If so, then proceed to isolate the affected systems. If not, then work with system owners and/or managers to determine further action necessary to contain the problem.
+                                </li>
                                 <li>
-                                    Are all affected systems isolated from non-affected systems? </li>
+                                    Are all affected systems isolated from non-affected systems? If so, then continue to the next step. If not, then continue to isolate affected systems until short-term containment has been accomplished to prevent the incident from escalating any further.
+                                </li>
                             </ul>
                         </li>
                         <li>
@@ -371,7 +381,8 @@
                                     Have forensic copies of affected systems been created for further analysis?
                                 </li>
                                 <li>
-                                    Have all commands and other documentation since the incident has occurred been kept up to date so far? </li>
+                                    Have all commands and other documentation since the incident has occurred been kept up to date so far? If not, document all actions taken as soon as possible to ensure all evidence are retained for either prosecution and/or lessons learned.
+                                </li>
                                 <li>
                                     Are the forensic copies stored in a secure location?
                                 </li>
@@ -406,9 +417,9 @@
                 <li>
                     <h3>Lessons Learned</h3>
                     <ol>
-                        <li>Has all necessary documentation from the incident been written?</li>
+                        <li>Has all necessary documentation from the incident been written? If so, then generate the incident response report for the lessons learned meeting. If not, then have documentation written as soon as possible before anything is forgotten and left out of the report.</li>
                         <li>Assuming the incident response report has been completed, does it document and answer the following questions of each phase of the incident response process: (Who? What? Where? Why? And How?)?</li>
-                        <li>Can a lesson learned meeting be scheduled within two weeks after the incident has been resolved?</li>
+                        <li>Can a lesson learned meeting be scheduled within two weeks after the incident has been resolved? If not, then please explain why and when is the next convenient time to hold it?</li>
                         <li>
                             Lessons Learned Meeting
                             <ul>
@@ -419,14 +430,6 @@
                     </ol>
                 </li>
             </ol>
-        </checklisttext>
-        <checklistmedia>
-            <img class = "introimage" src="images/sans_ladder.png" />
-            <p class="introsourcetext">Source: <a href="https://lab.wallarm.com/what/incident-response-plan-frameworks-and-steps/">https://lab.wallarm.com/what/incident-response-plan-frameworks-and-steps/</a></p>
-
-            <img class="introimage" src="images/checklistimage.webp" alt="">
-            <p class="introsourcetext"><a href="https://www.digitalmarketingmemes.com/post/cyber-security-memes">https://www.digitalmarketingmemes.com/post/cyber-security-memes</a></p>
-        </checklistmedia>
         </checklist_panel>
         <h1 class="titles">SOURCES</h1>
         <sources id="source">
@@ -442,9 +445,23 @@
                 </li>
                 <li>
                     <a href="https://www.crowdstrike.com/cybersecurity-101/incident-response/incident-response-steps/">Crowdstrike</a>
-                </li>   
+                </li> 
+                <li>
+                    <a href="https://purplesec.us/security-insights/uber-compromised-by-teenager/">Uber's Cyberattack incident 2022.</a>
+                </li>  
+                <li>
+                    <a href="https://tech.co/news/microsoft-new-cybersecurity-strategy">Microsoft's New CyberSecurity policy</a>
+                </li> 
+                <li>
+                    <a href="https://www.cybersecuritydive.com/news/suncor-ceo-cyberattack-recovery/691167/#:~:text=from%20your%20inbox.-,Suncor%20CEO%20says%20company%20mostly%20recovered%20from%20June%20cyberattack,and%20CEO%20Rich%20Kruger%20said.&text=Suncor%20Energy%20executives%20said%20the,operations%20since%20a%20June%20cyberattack.">Suncor Cyber Attack</a>
+                </li> 
+                <li>
+                    <a href="https://www.techtarget.com/whatis/feature/SolarWinds-hack-explained-Everything-you-need-to-know">Attack on SolarWinds</a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com/business/docs/site/AAW_Platform_Security.pdf">Apple's Platform Security pdf</a>
+                </li>
             </ul>
         </sources>
     </body>
 </html>
-
