@@ -15,10 +15,10 @@ Saadman Rahman
 
 Team contributions:
 
-Web design: Saadman Rahman and Adeeba Chowdhury
+Web design: Saadman Rahman and Zarsha Rahman
 
 Information Collection: Shahriar Anwar Khan and Farhan Labib
 
-Walkthrough: Zarsha Rahman and Kazi Badrul Arif 
+Walkthrough: Adeeba Chowdhury and Kazi Badrul Arif 
 
  
